@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>¡Gracias! | AERO</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            color: #164b75;
+            background: linear-gradient(
+                135deg,
+                #b9f0ff,
+                #58baff,
+                #d8ffff
+            );
+        }
+
+        .contenedor {
+            width: 100%;
+            max-width: 500px;
+            padding: 40px 25px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.45);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            border-radius: 25px;
+            box-shadow: 0 10px 30px rgba(0, 100, 180, 0.2);
+        }
+
+        .icono {
+            width: 90px;
+            height: 90px;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            margin-bottom: 15px;
+            font-size: 2rem;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        .boton {
+            display: inline-block;
+            padding: 12px 25px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            background: linear-gradient(#42c7ff, #0879d5);
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            border-radius: 30px;
+            box-shadow: 0 5px 15px rgba(0, 100, 200, 0.3);
+            transition: transform 0.2s;
+        }
+
+        .boton:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="contenedor">
+
+        <img class="icono" src="img/check.png" alt="">
+
+        <h1>¡Gracias por contactarnos!</h1>
+
+        <p>
+            Tu mensaje fue enviado correctamente.
+            Gracias por tu interés en AERO.
+        </p>
+
+        <a class="boton" href="index.html">
+            Volver al inicio
+        </a>
+
+    </main>
+
+</body>
+</html>
