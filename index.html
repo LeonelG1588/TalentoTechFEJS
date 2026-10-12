@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AERO - Asistente virtual</title>
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="#inicio">
+            <img class="logo-icono" src="img/logo.png" alt="logo de AERO" width="80">
+            <img class="logo-nombre" src="img/nombre-logo.png" alt="AERO" width="120">
+            </a>
+        </div>
+
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#funciones">Funciones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="inicio">
+
+            <div class="presentacion">
+
+            <div class="titulos">
+                <h1><span class="h1-destacado">AERO</span></h1>
+                <h2>Tu <span class="h2-destacado">asistente </span>virtual</h2>
+            </div>
+
+                <p>
+                    AERO es un asistente virtual diseñado para 
+                    ayudarte con diferentes tareas de la vida
+                    cotidiana.
+                </p>
+
+                <a href="#funciones">Conocer más <i class="fa-solid fa-arrow-right-long"></i></a>
+
+            </div>
+            
+        </section>
+
+        <section id="funciones" class="funciones">
+            <h2>Funciones</h2>
+
+            <p class="subtitulo">Todo lo que necesitas, en un solo lugar.</p>
+
+            <div class="tarjetas">
+
+                <article class="tarjeta">
+                    <span>
+                        <img class="icono" src="img/microphone.png" alt="microphone">
+                    </span>
+                    <h3>Comando de voz</h3>
+                    <p>Realiza acciones mediante comandos de voz</p>
+                </article>
+
+                <article class="tarjeta">
+                    <span>
+                        <img class="icono" src="img/calendar.png" alt="calendar">
+                    </span>
+                    <h3>Agenda</h3>
+                    <p>Organiza tus tareas, eventos y actividades</p>
+                </article>
+
+                <article class="tarjeta">
+                    <span>
+                        <img class="icono" src="img/bell.png" alt="bell">
+                    </span>
+                    <h3>Recordatorios</h3>
+                    <p>Recibe avisos para no olvidar tus actividades</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="como-funciona" class="como-funciona">
+            <h2>¿Cómo Funciona?</h2>
+
+            <p class="subtitulo">Es muy simple, solo tres pasos.</p>
+
+            <div class="pasos">
+
+                <article class="paso">
+                    <span class="numero-paso">
+                        <img src="img/1.png" alt="uno">
+                    </span>
+                    <div class="icono-principal">
+                        <img class="icono" src="img/message.png" alt="check">
+                    </div>
+                    <h3>Hablas</h3>
+                    <p>Le dices a AERO lo que necesitas.</p>
+                </article>
+
+                <article class="paso">
+                    <span class="numero-paso">
+                        <img src="img/2.png" alt="dos">
+                    </span>
+                    <div class="icono-principal">
+                        <img class="icono" src="img/lamp.png" alt="check">
+                    </div>
+                    <h3>AERO procesa</h3>
+                    <p>El asistente interpreta tu pedido.</p>
+                </article>
+
+                <article class="paso">
+                    <span class="numero-paso">
+                        <img src="img/3.png" alt="tres">
+                    </span>
+                    <div class="icono-principal">
+                        <img class="icono" src="img/check.png" alt="check">
+                    </div>
+                    <h3>Responde</h3>
+                    <p>Recibes una respuesta o ayuda.</p>
+                </article>
+
+            </div>
+        </section>
+        
+    <section id="multimedia-contacto" class="multimedia-contacto">
+
+        <section id="multimedia" class="multimedia">
+            <h2>Conoce a AERO</h2>
+            <p class="subtitulo">Un asistente virtual pensado para acompañarte.</p>
+
+            <video controls>
+                <source src="video/aero.mp4" type="video/mp4">
+                Tu navegador no puede reproducir este video.
+            </video>
+        </section>
+
+        <section id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <p class="subtitulo">¿Tienes alguna consulta o sugerencia?</p>
+
+            <form action="https://formspree.io/f/xoejnydd" method="POST">
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="tu nombre">
+
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="mail" required placeholder="ejemplo@ejemplo.com">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required placeholder=". . ."></textarea>
+
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
+
+            </form>
+        </section>
+
+    </section>
+
+    </main>
+
+    
+    <footer>
+        <div class="div-foot"> 
+            <p>©2026 AERO - Proyecto Web - TalentoTech.</p> 
+            <p><a href="#inicio">Volver a arriba.</a></p> 
+        </div>
+    </footer>
+
+</body>
+</html>
